@@ -1,0 +1,35 @@
+/* Your CSS goes here */
+body {
+    font-family: sans-serif;
+    background-color: #edeeef;
+}
+
+h1 {
+    color: #3e4144;
+    text-align: center;
+    background-color: #c0c8d1;
+    padding: 10px;
+}
+
+input {
+    background-color: #f2f26d;
+}
+
+div {
+    padding: 2px;
+    margin-left: 15px;
+}
+
+.border {
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 3px;
+}
+
+.submit_button {
+    margin-left: -20px;
+}
