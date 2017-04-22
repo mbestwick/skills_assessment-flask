@@ -11,6 +11,10 @@ h1 {
     padding: 10px;
 }
 
+h3 {
+    text-align: center;
+}
+
 input {
     background-color: #f2f26d;
 }
@@ -32,4 +36,25 @@ div {
 
 .submit_button {
     margin-left: -20px;
+}
+
+.flash_message {
+    color: #f29c1d;
+    background-color: #e8e2da;
+    text-align: center;
+    border: thin solid #efad56;
+}
+
+#apply_link {
+    border: thin solid gray;
+    padding: 5px;
+    background-color: #f2f26d;
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 700px;
+}
+
+#apply_question {
+    text-align: right;
 }

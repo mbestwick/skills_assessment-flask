@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/styles.css"/>
+    <title>
+        {% block title %} 
+            TITLE
+        {% endblock %}
+    </title>
+
+</head>
+
+<body>
+
+    {% with messages = get_flashed_messages() %}
+      {% for message in messages %}
+          <div class="flash_message">{{ message }}</div>
+      {% endfor %}
+    {% endwith %}
+
+    {% block body %}
+      BODY
+    {% endblock %}
+
+</body>
+
+</html>
