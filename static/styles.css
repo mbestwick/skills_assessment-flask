@@ -49,12 +49,6 @@ div {
     border: thin solid gray;
     padding: 5px;
     background-color: #f2f26d;
-    text-align: right;
-    display: inline-block;
+    text-align: center;
     text-decoration: none;
-    margin-left: 700px;
-}
-
-#apply_question {
-    text-align: right;
 }
