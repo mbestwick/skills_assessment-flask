@@ -38,12 +38,7 @@ def completed_application():
     session['first_name'] = request.form.get("firstname")
     session['last_name'] = request.form.get("lastname")
     session['job'] = request.form.get("job")
-
-    try:
-        session['salary'] = int(request.form.get("salary"))
-    except:
-        flash("Please enter a number for salary, no commas")
-        return redirect("/application-form")
+    session['salary'] = int(request.form.get("salary"))
 
     if not session['job']:
         flash("Please choose a job!")
